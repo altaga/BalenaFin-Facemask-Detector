@@ -6,7 +6,7 @@ https://www.balena.io/fin/
 
 To train the model, a Notebook in Google Colab is used in order to facilitate the training of the model.
 
-https://github.com/altaga/Facemask-Detector-ZCU104/blob/main/Benchmarks%20Notebooks/RPi%20-%20Train%20and%20Test/Train/RPi_Train_Models.ipynb
+PONER LINK
 
 The operating system that was installed on the BalenaFin was Raspberry OS:
 
@@ -23,7 +23,7 @@ To install TFlite Interpreter:
 
 NOTE: the code for the training already contains the command to download the dataset on the Google Colab platform, however, here I leave you the two options to download the dataset.
 
-- Github: https://github.com/altaga/Facemask-Detector-ZCU104/tree/main/Setup%20Notebook%20and%20Dataset/facemask-dataset
+- Github: PONER LINK
 - Kaggle: https://www.kaggle.com/altaga/facemaskdataset
 
 Model running:
@@ -31,5 +31,3 @@ Model running:
 <kbd>
 <img src="https://i.ibb.co/6J7kty6/RPi-Opt-Model-2.jpg" width="600" />
 </kbd>
-
-Check "Evidence" folder with images and videos taken with the model running.
