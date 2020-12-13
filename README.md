@@ -6,15 +6,15 @@ BalenaFin board-based face mask detector.
 
 - [BalenaFin-Facemask-Detector](#balenafin-facemask-detector)
 - [Table of contents](#table-of-contents)
-  - [Introduction:](#introduction)
-- [Materials:](#materials)
-- [Diagram:](#diagram)
-- [Setup:](#setup)
-- [Training:](#training)
-- [Testing:](#testing)
-- [Demo:](#demo)
+  - [Introduction](#introduction)
+- [Materials](#materials)
+- [Diagram](#diagram)
+- [Setup](#setup)
+- [Training](#training)
+- [Testing](#testing)
+- [Demo](#demo)
 
-## Introduction:
+## Introduction
 
 The Covid19 pandemic has been an event that has affected not only the life of each person, but the coexistence of people in all aspects of life and one of these aspects has clearly been the way in which all people coexist.
 
@@ -24,7 +24,7 @@ I want to create a EDGE face mask detector BalenaFin board-based.
 
 <img src="./Images/20201212_180931.jpg" width="800">
 
-# Materials:
+# Materials
 
 List the hardware and software you will use to build this.
 
@@ -40,11 +40,11 @@ Libraries:
 - [OpenCV. ](https://opencv.org/)
 - [TensorFlow Lite Interpreter. ](https://www.tensorflow.org/lite/guide/python)
 
-# Diagram:
+# Diagram
 
 <img src="https://i.ibb.co/sJTVQFH/New-Project-2.png" width="1000">
 
-# Setup:
+# Setup
 
 All the information about the BalenaFin will be in this link:
 
@@ -67,7 +67,7 @@ HW Setup:
 
 <img src="./Images/20201212_181009.jpg" width="1000">
 
-# Training:
+# Training
 
 To train the model, a Notebook in Google Colab is used in order to facilitate the training of the model.
 
@@ -79,7 +79,7 @@ NOTE: the code for the training already contains the command to download the dat
 - Github: [Link](https://github.com/altaga/BalenaFin-Facemask-Detector/tree/main/Train/facemask-dataset)
 - Kaggle: [Link](https://www.kaggle.com/altaga/facemaskdataset)
 
-# Testing:
+# Testing
 
 To run the model in BalenaFin, run this code on the command line.
 
@@ -91,7 +91,7 @@ Model running:
 <img src="./Images/20201212_174315.jpg" width="600" />
 </kbd>
 
-# Demo:
+# Demo
 
 Video: Click on the image:
 
