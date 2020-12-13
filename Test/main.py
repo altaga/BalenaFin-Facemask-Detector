@@ -16,14 +16,17 @@ face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 interpreter = Interpreter("converted_model_opt.tflite")
 interpreter.allocate_tensors()
 cap = cv2.VideoCapture(0)
+
+# Loop face detection
+
 while 1:
     ret, frame = cap.read()
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     faces = face_cascade.detectMultiScale(gray, 1.3, 5)
     marker = 0
-    # Loop face detection
     for (x,y,w,h) in faces:
-        if(w>109): # Detecting only the closest faces
+        if(w>109): 
+            # Detecting only the closest faces
             # Taking the processing times to get the FPS
             start_time = time.time()
             # Processing the image to go through the TFlite model
