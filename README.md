@@ -72,7 +72,7 @@ HW Setup:
 To train the model, a Notebook in Google Colab is used in order to facilitate the training of the model.
 
 (Click on the image to open the notebook)
-[![DEMO](https://i.ibb.co/FKsVkmw/image.png)]([PENDING](https://colab.research.google.com/github/altaga/BalenaFin-Facemask-Detector/blob/main/Train/Balena_Train_Models.ipynb))
+[![DEMO](https://i.ibb.co/FKsVkmw/image.png)](https://colab.research.google.com/github/altaga/BalenaFin-Facemask-Detector/blob/main/Train/Balena_Train_Models.ipynb)
 
 NOTE: the code for the training already contains the command to download the dataset on the Google Colab platform, however, here is the link to Kaggle and Github.
 
